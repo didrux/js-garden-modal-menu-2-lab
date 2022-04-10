@@ -333,9 +333,13 @@ body.switchMode .about_text p{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .sample_items .item{
     margin: 0 10px 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .sample_items .item img{
     max-width: 80%;

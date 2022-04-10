@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, maximum-scale=3.0, minimum-scale=0.5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Currency Exchange</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicons/favicon.ico" />
+
 </head>
 <body>
 
@@ -81,19 +83,27 @@
             <div class="section_title">
                 How it works
             </div>
-            <div class="sample_items">
-            <a class="item">
-                <img src="img/1.png" alt="" draggable="false">
-            </a>
-            <a class="item">
-                <img src="img/2.png" alt="" draggable="false">
-            </a>
-            <a class="item">
-                <img src="img/3.png" alt="" draggable="false">
-            </a>
-            </div>
+<!--            <div class="sample_items">-->
+<!--            <a class="item">-->
+<!--                <img src="img/1.png" alt="" draggable="false">-->
+<!--                <p><span id="more">Sed dapibus pulvinar nibh tempor portsdfsdfsdfsdfsdfsdfsdfsdfsfa.</span></p>-->
+<!--                <button onclick="myFunction()" id="myBtn">Читать больше</button>-->
+<!--            </a>-->
+<!--            <a class="item">-->
+<!--                <img src="img/2.png" alt="" draggable="false">-->
+<!--                <p>Lorerdiet<span id="dots">...</span><span id="more">Sed dapibus pulvinar nibh tempor porta.</span></p>-->
+<!--                <button onclick="myFunction()" id="myBtn">Читать больше</button>-->
+<!--            </a>-->
+<!--            <a class="item">-->
+<!--                <img src="img/3.png" alt="" draggable="false">-->
+<!--                <p>Lorerdiet<span id="dots">...</span><span id="more">Sed dapibus pulvinar nibh tempor porta.</span></p>-->
+<!--                <button onclick="myFunction()" id="myBtn">Читать больше</button>-->
+<!--            </a>-->
+<!--            </div>-->
             <div class="sample_btn">
-                <a href="https://t.me/uahcurrency_bot" target="_blank" class="btn">Open Telegram Bot</a>
+                <button id="show-images" class="btn">Show images</button>
+            </div>
+            <div class="sample_items" id="first_sample_items">
             </div>
         </div>
     </section>
@@ -107,5 +117,6 @@
     <script src="js/smooth-scroll.js"></script>
     <script src="js/dark-mode.js"></script>
     <script src="js/copyright-year.js"></script>
+    <script src="js/images-appear.js"></script>
 </body>
 </html>

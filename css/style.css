@@ -283,7 +283,7 @@ body.switchMode .header_body_inner .left .title{
 .header_body_inner .left .title span{
     color: #229ED9;
 }
-a.btn{
+.btn{
     display: inline-block;
     background-color: #229ED9;
     color: #fff;
@@ -322,6 +322,8 @@ body.switchMode .about_text p{
     color: #fff;
 }
 
+#more1, #more2, #more3 {display: none;}
+
 .sample_items{
     margin-top: 45px;
     display: -webkit-flex;
@@ -334,8 +336,6 @@ body.switchMode .about_text p{
 }
 .sample_items .item{
     margin: 0 10px 15px 0;
-    display: flex;
-    justify-content: center;
 }
 .sample_items .item img{
     max-width: 80%;
@@ -355,6 +355,9 @@ body.switchMode .about_text p{
     display: -o-flex;
     display: flex;
     justify-content: center;
+}
+#sample .sample_btn {
+    justify-content: left;
 }
 
 footer{
